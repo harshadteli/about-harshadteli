@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshad Teli</title>
+  <meta name="description" content="Hii, I am Harshad Teli from Radhanagari and I am Computer Science Student.">
+  <meta name="keywords" content="Harshad Teli">
+  <meta name="subject" content="harshad">
+  <meta name="copyright" content="HarshTech Organization">
+  <meta name="language" content="English">
+  <meta name="robots" content="index,follow">
+  <meta name="revised" content="saturday,august 2th,2025,8:45 pm">
+  <meta name="abstract"
+    content="HarshTech  specializes in custom Software Development and Web design solutions and Developing the AI Tools.">
+  <meta name="topic" content="Software Development">
+  <meta name="summary" content="HarshTech Provides innovative technology solutions for business">
+  <meta name="classification" content="business">
+  <meta name="author" content="Harshad Teli">
+  <meta name="author" content="harshadteli697@gmail.com">
+  <meta name="designer" content="Harshad Teli">
+  <meta name="reply-to" content="harshtech417@gmail.com">
+  <meta name="owner" content="Harshad Teli">
+  <meta name="directory" content="Technology">
+  <meta name="pagename" content="HarshTech Organization feedback form">
+  <meta name="category" content="Web Development">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
+  <!-- Google Verification Code -->
+   <meta name="google-site-verification" content="B3a3ZbAh_Xv1_U0zF5mqbKrUp80nEmUqpMu7ZdiwMQI" />
+  <link rel="shortcut icon" href="./assets/VOICE/It's Me.jpg" type="image/x-icon">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #0ff;
+      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+      margin-bottom: 20px;
+      object-fit: cover;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px #0ff;
+      }
+
+      to {
+        box-shadow: 0 0 30px #0ff, 0 0 60px #0ff;
+      }
+    }
+
+    .bio {
+      font-size: 1.2rem;
+      margin-bottom: 0px;
+      max-width: 90%;
+      line-height: 1.6;
+      color: #0ff;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      position: fixed;
+      bottom: 30px;
+      width: 100%;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      color: #0ff;
+
+    }
+
+    .neon-btn {
+      position: relative;
+      padding: 12px 24px;
+      color: #0ff;
+      background: transparent;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .neon-btn::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 8px;
+      padding: 2px;
+      background: linear-gradient(90deg, #0ff, #00f, #0ff, #0f0, #0ff);
+      background-size: 400%;
+      z-index: -1;
+      animation: border-anim 6s linear infinite;
+      mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask-composite: exclude;
+      -webkit-mask-composite: destination-out;
+    }
+
+    @keyframes border-anim {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .neon-btn:hover {
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 600px) {
+      .btn-group {
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        margin-top: 30px;
+      }
+
+      .neon-btn {
+        width: 80%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <audio id="githubaud" src="./assets/VOICE/github.mp3" preload="auto"></audio>
+  <audio id="linkaud" src="./assets/VOICE/linkdin.mp3" preload="auto"></audio>
+  <audio id="portaud" src="./assets/VOICE/portfolio.mp3" preload="auto"></audio>
+  <audio id="microsoftaud" src="./assets/VOICE/Microsoft.mp3" preload="auto"></audio>
+  <audio id="tcsaud" src="./assets/VOICE/tcs.mp3" preload="auto"></audio>
+  <audio id="nckaud" src="./assets/VOICE/nckbcs.mp3" preload="auto"></audio>
+  <audio id="harshtechaud" src="./assets/VOICE/harshtech.mp3" preload="auto"></audio>
+  <audio id="contactaud" src="./assets/VOICE/contact.mp3" preload="auto"></audio>
+
+  <!-- Profile Image -->
+  <img src="./assets/VOICE/It's Me.jpg" alt="Harshad Teli" class="profile-pic" />
+
+  <!-- Static Bio -->
+  <div class="bio">
+    👨‍💻 Hi, I'm <strong>Harshad Teli</strong><br>
+    🚀 Code. Create. Conquer.
+  </div>
+  <!-- Button Group -->
+  <div class="btn-group">
+    <button id="githubbtn" class="neon-btn"><a href="#" target="_blank">🐙 GITHUB</a></button>
+    <button id="linkbtn" class="neon-btn"><a href="#" target="_blank">💼 LINKDIN</a></button>
+    <button id="portbtn" class="neon-btn"><a href="#" target="_blank">📜 HARSHAD'S PORTFOLIO</a></button>
+    <button id="microsoftbtn" class="neon-btn"><a href="#" target="_blank">👨‍💻 MICROSOFT IGNITE
+        LEADERSHIP</a></button>
+    <button id="tcsbtn" class="neon-btn"><a href="#" target="_blank">👨‍💻 FORAGE(T.C.S) LEADERSHIP</a></button>
+    <button id="nckbtn" class="neon-btn"><a href="#" target="_blank">🏢 NCK-BCS DEPARTMENT</a></button>
+    <button id="harshtechbtn" class="neon-btn"><a href="#" target="_blank">🌐 HARSHTECH</a></button>
+    <button id="contactbtn" class="neon-btn"><a href="#" target="_blank">👨‍💻 CONTACT ME</a></button>
+  </div>
+  <script>
+    const githubaud = document.getElementById("githubaud");
+    const githubbtn = document.getElementById("githubbtn");
+    githubbtn.addEventListener("click", () => {
+      githubaud.play();
+      window.open("https://github.com/harshadteli");
+    })
+    const linkaud = document.getElementById("linkaud");
+    const linkbtn = document.getElementById("linkbtn");
+    linkbtn.addEventListener("click", () => {
+      linkaud.play();
+      window.open("https://www.linkedin.com/in/harshad-teli-560700330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app");
+    })
+    const portaud = document.getElementById("portaud");
+    const portbtn = document.getElementById("portbtn");
+    portbtn.addEventListener("click", () => {
+      portaud.play();
+      window.open("https://harshadteli.github.io/harshadteliportfolio/");
+    })
+    const microsoftaud = document.getElementById("microsoftaud");
+    const microsoftbtn = document.getElementById("microsoftbtn");
+    microsoftbtn.addEventListener("click", () => {
+      microsoftaud.play();
+      window.open("https://learn.microsoft.com/en-us/users/harshadteli-0903/");
+    })
+    const tcsaud = document.getElementById("tcsaud");
+    const tcsbtn = document.getElementById("tcsbtn");
+    tcsbtn.addEventListener("click", () => {
+      tcsaud.play();
+      window.open("https://www.theforage.com/profile/Az8hcSfFbtvf2Ti3H");
+    });
+    const nckaud = document.getElementById("nckaud");
+    const nckbtn = document.getElementById("nckbtn");
+    nckbtn.addEventListener("click", () => {
+      nckaud.play();
+      window.open("https://nckbcs.netlify.app");
+    });
+    const harshtechaud = document.getElementById("harshtechaud");
+    const harshtechbtn = document.getElementById("harshtechbtn");
+    harshtechbtn.addEventListener("click", () => {
+      harshtechaud.play();
+      window.open("https://harshadteli.github.io/harshtech.org/");
+    });
+    const contactaud = document.getElementById("contactaud");
+    const contactbtn = document.getElementById("contactbtn");
+    contactbtn.addEventListener("click", () => {
+      contactaud.play();
+      window.open("https://harshadteli.github.io/contactharshadteli/");
+    });
+  </script>
+  <script src="./assets/VOICE/prevent.js"></script>
+
+</body>
+
+</html>
